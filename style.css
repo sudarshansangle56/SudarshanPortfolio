@@ -100,7 +100,7 @@ html,body{
 /*ok*/
 #page12 h1,h3{
     background-color: rgb(180,186,207);
-    color: #333232;
+    color: #2d2c2c;
 }
 #page12 h1{
     font-family: 'futura';
@@ -131,8 +131,8 @@ FONT COLOR: RGB(65, 65, 65) */
 .part1{
 
    
-    color: #414141;
-    border-radius: 5%;
+    color: #2d2c2c;
+    border-radius: 2.5%;
     width: 40%;
     background-color: rgb(180,186,207);
      height: 480px;
@@ -155,18 +155,18 @@ FONT COLOR: RGB(65, 65, 65) */
     color: #000000e7;
 }
 .project span{
-
     color: rgb(180,186,207);
 }
 #page2{
 
-    height: 100vh;
-    width: 100%;
+   height: 100vh;
+   width: 100%;
    position: relative;
    display: flex;
    align-items: center;
    padding: 3vw 1vw;
    justify-content: space-between;
+   background-color: transparent;
 }
 #page2 .elem{
     height: 100%;
@@ -176,27 +176,77 @@ FONT COLOR: RGB(65, 65, 65) */
     display: flex;
     align-items: center;
     justify-content: center;
+    
    
 }
 #page2 .elem img{
-    height: 100%;
-    width: 100%;
+    height: 95%;
+    width: 100%; 
     scale: 1.3;
     object-fit: cover;
+    border-radius: 85px;
    
 }
-#page2 .elem .dets{
+#page2 .elem .dets .info {
+    display: none;
+}
+
+#page2 .elem .dets {
     height: 60px;
     width: 80%;
     position: absolute;
     z-index: 9;
-    border-radius: 50px;
-    background-color: aquamarine;
-    transition: height 0.3s ease; 
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5DFCF;
+    transition: height 0.3s ease, width 0.3s ease;
+    transform-origin: bottom; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
-#page2 .elem .dets:hover{
-    height: 10px; /* Increase height on hover */
-    bottom: 0;
+.iconname{
+    display: flex;
+}
+#page2 .elem .dets:hover {
+    height: 265px;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+}
+
+#page2 .elem .dets .info {
+    display: none;
+    background-color: transparent;
+  }
+
+  #page2 .elem .dets:hover .info {
+    display: block;
+   
+  }
+
+  #page2 .elem .dets:hover .info p {
+    background-color: transparent;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1vh;
+  }
+#page2 .elem .dets div i{
+    font-size: 4vh;
+    padding-left: 1.5vh;
+    cursor: pointer;
+  
+}
+#page2 .elem .dets div, div i{
+    background-color: transparent;
+    
+}
+#page2 .elem .dets h3{
+  
+   background-color: transparent;
+   color: #151414;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 .page33 {
     height: 100vh;
@@ -210,6 +260,7 @@ FONT COLOR: RGB(65, 65, 65) */
     position: relative; /* Ensure it's relative */
     margin-top: 3%;
   }
+
   
 .box{
     height: 300px;
@@ -292,7 +343,7 @@ background-color: #FFFFFF;
 }
 .box1 {
     position: relative;
-    width: 230px;
+    width: 240px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -327,11 +378,15 @@ background-color: #FFFFFF;
     padding-top: 8px;
     cursor: pointer;
     z-index: 1;
+   
 }
 
 .cont{
     background-color: transparent;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 25px;
     position: relative; 
     z-index: 1;
@@ -340,7 +395,11 @@ background-color: #FFFFFF;
     position: relative; 
     z-index: 1;
 }
-  
+a {
+    
+    text-decoration: none;
+    background-color: transparent; /* Remove underline */
+}
 
 
 @media (max-width:600px) {
@@ -356,12 +415,12 @@ background-color: #FFFFFF;
        }
           
     #page1 h1{
-        font-size: 15vw;
+        font-size: 14.50vw;
         line-height: 14vw;
-        letter-spacing: -3px;
+        letter-spacing: -2px;
     }
     #full{
-        height: 700%;
+        height: 800%;
         width: 58%;
        position: absolute;
        border-radius: 10px;
@@ -377,6 +436,7 @@ background-color: #FFFFFF;
         font-size: 30px;
         font-weight: 500;
         margin-bottom: 5px;
+        padding-top: 2vh;
         font-weight: bold;
         background-color: transparent;
     }
@@ -461,7 +521,7 @@ background-color: #FFFFFF;
 
 
    .round {
-display: none;
+  display: none;
 
 }
 

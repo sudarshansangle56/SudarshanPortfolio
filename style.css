@@ -164,7 +164,7 @@ FONT COLOR: RGB(65, 65, 65) */
    position: relative;
    display: flex;
    align-items: center;
-   padding: 3vw 1vw;
+   padding: 2vw 1vw;
    justify-content: space-between;
    background-color: transparent;
 }
@@ -184,7 +184,7 @@ FONT COLOR: RGB(65, 65, 65) */
     width: 100%; 
     scale: 1.3;
     object-fit: cover;
-    border-radius: 85px;
+
    
 }
 #page2 .elem .dets .info {
@@ -399,7 +399,7 @@ background-color: #FFFFFF;
 a {
     
     text-decoration: none;
-    background-color: transparent; /* Remove underline */
+    background-color: transparent;
 }
 
 
@@ -414,12 +414,7 @@ a {
            padding-top: 25vh;
            overflow-x: hidden;  
        }
-          
-    #page1 h1{
-        font-size: 14.50vw;
-        line-height: 14vw;
-        letter-spacing: -2px;
-    }
+ 
     #full{
         height: 800%;
         width: 58%;
@@ -459,7 +454,7 @@ a {
         position: relative;
        display: flex;
        align-items: center;
-       padding: 3vw 1vw;
+       padding: 5vw 2.5vw;
        flex-direction: column;
        justify-content: space-between;
        background-color: transparent;
@@ -527,9 +522,7 @@ a {
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-    .part1{
-
-   
+    .part1{   
         color: #414141;
         border-radius: 5%;
         width: 40%;

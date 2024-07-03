@@ -9,6 +9,7 @@ html,body{
 
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -343,16 +344,17 @@ background-color: #FFFFFF;
 
 
 @media (max-width:600px) {
+    
     #page1{
-        min-height: 70vh;
+        min-height: 40vh;
         background-color: #F7F7F7;
-         
+
            width: 100%;
            padding: 0 3vw;
            padding-top: 25vh;
-          
-          
+           overflow-x: hidden;  
        }
+          
     #page1 h1{
         font-size: 15vw;
         line-height: 14vw;
@@ -391,10 +393,6 @@ background-color: #FFFFFF;
         cursor: pointer;
     }
 
-
-
-
-
     #page2{
         height: 100%;
         width: 100%;
@@ -419,8 +417,7 @@ background-color: #FFFFFF;
        
     }
 
-/*
-two part */
+
 .part1 h1 {
     padding: 3%;
     font-size: 20px;
@@ -454,13 +451,22 @@ two part */
  
        text-transform: uppercase;
        line-height: 14vw;
-       letter-spacing: -4.5px;
+       letter-spacing: -3.5px;
    
    }
    .page33 {
     height: 350vh;
     width: 100%;
    }    
+
+
+   .round {
+display: none;
+
+}
+
+
+   
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {

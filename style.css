@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +30,8 @@ html,body{
  
      
    }
+
+
 #logo{
     display: flex;
     align-items: center;
@@ -70,6 +79,9 @@ html,body{
     cursor: pointer;
 }
 
+.box h3{
+    padding-top: 10px;
+}
 
 
 

@@ -11,6 +11,10 @@
     font-family: "Mazius";
     src: url(./Fonts/Mazius-Extraitalic.121a71a7.ttf);
 }
+@font-face {
+    font-family: "Gill Sans";
+    src: url(./Fonts/Gill\ Sans.otf);
+}
 
 *{
     margin: 0;

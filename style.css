@@ -109,7 +109,7 @@ html,body{
     width: 100%;
     position: relative;
     padding: 0 1vw;
-    color: #292727;
+    color: #2e2929;
     padding-top: 17vh;
 }
 
@@ -135,7 +135,7 @@ html,body{
 /*ok*/
 #page12 h1{
     background-color: rgb(180,186,207);
-    color: #de2323;
+    color: #2e2929;
 }
 #page12 h3{
     background-color: rgb(180,186,207);

@@ -109,7 +109,7 @@ html,body{
     width: 100%;
     position: relative;
     padding: 0 1vw;
-    color: #151414;
+    color: #292727;
     padding-top: 17vh;
 }
 
@@ -196,7 +196,7 @@ FONT COLOR: RGB(65, 65, 65) */
     text-transform: uppercase;
     font-family: 'futura';
     padding-left: 2vw;
-    color: #000000e7;
+    color: #292727;
 }
 .project span{
     color: rgb(180,186,207);
@@ -371,6 +371,9 @@ FONT COLOR: RGB(65, 65, 65) */
     -o-object-fit: cover;
        object-fit: cover;
 }
+.box:hover{
+    scale: 1.1;
+}
 .box img{
 
     height: 200px;
@@ -382,7 +385,8 @@ FONT COLOR: RGB(65, 65, 65) */
 }
 .box h3{
     background-color: transparent;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'matter';
+    font-size: 22px;
 }
 .circle {
     padding: 3vw 2vw;
@@ -644,7 +648,7 @@ a {
    
    }
    .page33 {
-    height: 370vh;
+    height: 380vh;
     width: 100%;
    }    
 

@@ -133,9 +133,13 @@ html,body{
     background-color: black;
 }
 /*ok*/
-#page12 h1,h3{
+#page12 h1{
     background-color: rgb(180,186,207);
-    color: #161515;
+    color: #2a1f1f;
+}
+#page12 h3{
+    background-color: rgb(180,186,207);
+    color: #2a1f1f;
 }
 #page12 h1{
     font-family: 'futura';
@@ -610,7 +614,7 @@ a {
 .part1 h1 {
     padding: 3%;
     font-size: 17px;
-    color: #877272;
+    color: #4b3232;
 }
 #page12 h3{
   

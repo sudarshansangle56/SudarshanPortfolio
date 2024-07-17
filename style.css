@@ -695,3 +695,10 @@ a {
         font-size: 1.8vh;
      }
 }
+@media (max-width: 768px) {
+    #page1 h1 {
+      font-size: 10vw;
+    }
+
+  }
+  

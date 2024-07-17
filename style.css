@@ -163,13 +163,7 @@ html,body{
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    font-family: 'futura';
-    /*FONT NAME: GILROY, SANS-SERIF
-FONT SIZE: 38.7999PX
-FONT WEIGHT: 400
-LINE HEIGHT: 36.86PX
-FONT COLOR: RGB(65, 65, 65) */
-    
+    font-family: 'futura';    
 }
 
 .part1{

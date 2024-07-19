@@ -538,6 +538,11 @@ a {
            padding-top: 25vh;
            overflow-x: hidden;  
        }
+
+       #page1 h1{
+        line-height: 14vw;
+        letter-spacing: -8px;
+    }
  
     #full{
         height: 1000%;
@@ -608,10 +613,6 @@ a {
            object-fit: cover;
        
 }
-.part1 h1 {
-    padding: 3%;
-    font-size: 17px;
-}
 #page12 h3{
   
     font-size: 12.5px;
@@ -620,8 +621,12 @@ a {
     font-weight: lighter;
    
 }
+.part1 h1{
+    font-size: 22px;
+}
 .part1  {
     height: 425px;
+
 }
 
 #page1{
@@ -635,8 +640,7 @@ a {
  
        text-transform: uppercase;
        line-height: 17.5vw;
-       letter-spacing: -3.5px;
-   
+       letter-spacing: -3px;
    }
    .page33 {
     height: 380vh;

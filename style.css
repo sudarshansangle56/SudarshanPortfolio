@@ -622,12 +622,9 @@ a {
    
 }
 .part1 h1{
-    font-size: 22px;
+    font-size: 19px;
 }
-.part1  {
-    height: 425px;
 
-}
 
 #page1{
    
@@ -651,6 +648,9 @@ a {
    .round {
   display: none;
 
+}
+.part1{
+    height: 500px;
 }
 
 
